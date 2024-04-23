@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <h1>Dava Oktavito Josua Ulus</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p id="typewriter"></p>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-item"><img src="Gambar1.jpg" alt="Image 1"></div>
+                <div class="gallery-item"><img src="Gambar2.jpg" alt="Image 2"></div>
+                <div class="gallery-item"><img src="Gambar3.jpg" alt="Image 3"></div>
+                <!-- Repeat for additional images -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+        <div class="container">
+            <h2>Blog</h2>
+            <div class="blog-container">
+                <div class="blog-post">
+                    <h3>Tips Sederhana untuk Tidur Lebih Baik Setiap Malam</h3>
+                    <p>Tidur yang cukup adalah kunci untuk hidup sehat. Artikel ini memberikan tips sederhana seperti menjaga jadwal tidur yang
+                    teratur, menciptakan lingkungan tidur yang nyaman, dan menghindari kafein sebelum tidur.</p>
+                </div>
+                <div class="blog-post">
+                    <h3>Pentingnya Sarapan dalam Pola Makan Sehat</h3>
+                    <p>Sarapan adalah waktu makan yang penting untuk memberikan energi sepanjang hari. Artikel ini menjelaskan manfaat sarapan,
+                    serta memberikan contoh menu sarapan sehat.</p>
+                </div>
+                <div class="blog-post">
+                    <h3>Cara Mengurangi Konsumsi Gula dalam Diet Anda</h3>
+                    <p>Konsumsi gula berlebih dapat berdampak buruk pada kesehatan. Artikel ini memberikan tips tentang cara mengurangi
+                    konsumsi gula dalam diet sehari-hari, seperti menghindari minuman manis dan membaca label nutrisi.</p>
+                </div>
+                <!-- Repeat for additional blog posts -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
